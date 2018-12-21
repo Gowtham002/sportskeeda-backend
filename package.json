@@ -1,0 +1,26 @@
+{
+  "name": "backend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "setup": "babel-node setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "json2csv": "^4.3.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "node-cron": "^2.0.3",
+    "superagent": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
