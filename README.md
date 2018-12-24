@@ -11,6 +11,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ git clone https://github.com/Gowtham002/sportskeeda-backend.git
 $ cd sportskeeda-backend
+$ mkdir public
 $ npm install
 $ npm run setup
 $ npm start
